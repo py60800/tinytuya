@@ -4,13 +4,13 @@ import (
 	"log"
 	"net/http"
 	"text/template"
-	//"github.com/py60800/tuya"
+	"github.com/py60800/tuya"
 	"encoding/json"
 	"flag"
 	"io/ioutil"
 	"strconv"
 	"time"
-	"tuya"
+	//"tuya"
 )
 
 var tmpl *template.Template
