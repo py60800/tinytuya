@@ -1,0 +1,21 @@
+<div class="row">
+  <div class="col-sm-6 display-3 text-right" >
+  {{.Name}}
+  </div>
+<div class="col-sm-6">
+	<label class="switch">
+		<input  id="sw-{{.Name}}"  onclick="swSet('{{.Name}}',this.checked);" type="checkbox">
+	<span class="slider round"></span>
+	<span class="absolute-no">OFF</span> 
+	</label>
+</div>
+</div>
+<!--
+<script>
+    $('#sw-{{.Name}}').click(function() {
+        $.get("set",
+             {'switch':'{{.Name}}',
+               set:$(this).prop('checked')});
+    });
+</script>
+-->
